@@ -9,7 +9,7 @@ This project involves creating a user interface (UI) based on the Figma design s
 1. Clone the repository to your local machine.
 
    ```bash
-   git clone <repository_url>
+   git clone https://github.com/mazerunner321/matrixAssign.git
    ```
 
 ## Tech Stack
