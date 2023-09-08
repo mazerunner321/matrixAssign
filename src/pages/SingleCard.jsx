@@ -1,6 +1,5 @@
 import React from "react";
 import "./SingleCard.css";
-import Circle from "../components/Circle";
 
 const SingleCard = ({
   baseToken,
@@ -10,7 +9,6 @@ const SingleCard = ({
   dexId,
   priceUsd,
 }) => {
-  console.log("Quotetoken", quoteToken, priceNative, priceUsd);
   return (
     <div className="singleCard-container">
       <div className="baisc-info">

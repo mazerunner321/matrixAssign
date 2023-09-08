@@ -43,10 +43,9 @@ const LandingPage = () => {
       const endpoint = `https://api.dexscreener.com/latest/dex/tokens/${tkn}`;
       const res = await axios.get(endpoint);
       setData(res.data.pairs);
-      // console.log(res.data.pairs);
       setLoading(false);
     } catch (error) {
-      // console.log(error);
+      console.log(error);
       setLoading(false);
     }
   };

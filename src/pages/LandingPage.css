@@ -10,7 +10,6 @@
 
 .LandingPage-child-container {
   width: 70%;
-  /* height: auto; */
   border: 1px solid blue;
 }
 
@@ -18,7 +17,6 @@
   position: fixed;
   top: 20px;
   left: 350px;
-  /* border: 1px solid; */
 }
 
 .searchbar_container>input {
@@ -80,7 +78,6 @@
 .searchResults {
   position: sticky;
   top: 12%;
-  /* border: 1px solid white; */
   width: 72%;
   margin-left: 300px;
   margin-top: 20px;
