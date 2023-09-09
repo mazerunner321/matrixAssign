@@ -8,7 +8,6 @@ const SideBar = () => {
   return (
     <div className="sidebar_container">
       <div className="sidebar_components">
-        {/* logo  */}
         <div className="sidebar_logo_container">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -25,7 +24,6 @@ const SideBar = () => {
           <p>nFTify</p>
         </div>
 
-        {/* token address  */}
         <Link to="/">
           <div className="sidebar_token_container background">
             <svg
@@ -43,7 +41,7 @@ const SideBar = () => {
             <p id="token">Token Address</p>
           </div>
         </Link>
-        {/* pair address  */}
+
         <Link to="/pair">
           <div className="sidebar_pair_container">
             <svg
